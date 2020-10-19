@@ -5,7 +5,7 @@ def snake_it_up(string)
   if string[0] == "s"
     10 * "s" + string
     binding.pry
-    12
+    puts "did this pry"
   else
     string
   end
